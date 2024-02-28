@@ -13,26 +13,3 @@ public class OReillySpringBootApplication {
 	}
 
 }
-
-class Coffe {
-	private final String id;
-	private String name;
-
-	public Coffe(String id, String name){
-		this.id = id;
-		this.name = name;
-	}
-	public Coffe(String name){
-		this(UUID.randomUUID().toString(), name);
-	}
-
-	public String getName(){
-		return this.name;
-	}
-	public void setName(String name){
-		this.name = name;
-	}
-	public String getId(){
-		return this.id;
-	}
-}
