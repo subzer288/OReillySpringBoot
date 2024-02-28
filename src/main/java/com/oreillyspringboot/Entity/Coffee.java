@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import java.util.UUID;
 
 @Entity
-public class Coffe {
+public class Coffee {
     @Id
     private String id;
 
@@ -16,13 +16,13 @@ public class Coffe {
     private String name;
 
     //Java Persistence API requires a non-arg constructor
-    public Coffe(){}
+    public Coffee(){}
 
-    public Coffe(String id, String name){
+    public Coffee(String id, String name){
         this.id = id;
         this.name = name;
     }
-    public Coffe(String name){
+    public Coffee(String name){
         this(UUID.randomUUID().toString(), name);
     }
 
