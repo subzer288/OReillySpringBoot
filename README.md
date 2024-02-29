@@ -52,3 +52,26 @@ This repository has been created to store the project that was created using the
 * * Turning Up the Volume on Logging with Actuator
 
 ***
+
+### Chapter 6. Really Digging into Data
+
+***
+
+* Defining Entities
+* Template Support
+* Repository Support
+* @Before
+* Creating a Template-Based Service Using Redis
+* * Initializing the Project
+* * Developing the Redis Service
+* Converting from Template to Repository
+* Creating a Repository-Based Service Using the Java Persistence API (JPA)
+* * Initializing the Project
+* * Developing the JPA (MySQL) Service
+* * Loading Data
+* Creating a Repository-Based Service Using a NoSQL Document Database
+* * Initializing the Project
+* * Developing the MongoDB Service
+* Creating a Repository-Based Service Using a NoSQL Graph Database
+* * Initializing the Project
+* * Developing the Neo4j Service
