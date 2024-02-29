@@ -1,10 +1,10 @@
-package com.oreillyspringboot;
+package com.thehecklers.planefinder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OReillySpringBootApplicationTests {
+class PlanefinderApplicationTests {
 
 	@Test
 	void contextLoads() {
